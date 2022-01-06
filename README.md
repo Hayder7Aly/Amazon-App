@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[Live Demo](https://amaznclone-4ca2c.web.app)
+[Live Demo](https://amaznclone-4ca2c.web.app){:target="_blank"}
 
 ### Home Section
 ![alt text](public/images/1.png)
