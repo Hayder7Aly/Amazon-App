@@ -1,0 +1,112 @@
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  overflow-x: hidden;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-evenly;
+  user-select: none;
+}
+.header .link {
+  color: #fff;
+  text-decoration: none;
+}
+.header .options {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1rem;
+}
+.header .options .lineOne {
+  font-size: 1.1rem;
+}
+.header .options .lineOne .lineOneSpan{
+font-weight: bolder;
+font-size: 1.2rem;
+text-transform: capitalize;
+}
+.header .options .lineTwo {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.header .cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+.header .cartCount {
+  margin: 0rem 1rem;
+  text-align: center;
+  color: #111;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #cd9042;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .icon {
+  font-size: 2rem;
+}
+.header .logo {
+  object-fit: contain;
+  width: 10rem;
+  margin: 0 2rem;
+  margin-top: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+.header .searchBox {
+  display: flex;
+  flex: 1;
+}
+.header .searchInput {
+  height: 1.2rem;
+  padding: 1.2rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.header .searchIcon {
+  background-color: #cd9042;
+  height: 2.4rem !important;
+  padding: 2px !important;
+  font-size: 2.5rem !important;
+}
+@media (max-width: 540px) {
+  .header .searchBox {
+    display: none;
+  }
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 420px) {
+  .header{
+    justify-content: space-between;
+  }
+
+  .header .options {
+    display: none;
+  }
+  .header .menu  .link{
+    display: block;
+  }
+  .header .menu .link .signIn{
+    display: block;
+    display: flex;
+  }
+  .header .logo{
+    width: 8rem;
+  }
+}
