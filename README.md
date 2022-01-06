@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[Live Demo](https://amaznclone-4ca2c.web.app)
+
 ### Home Section
 ![alt text](public/images/1.png)
 ### Product Section
